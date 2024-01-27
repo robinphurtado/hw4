@@ -1,0 +1,67 @@
+<%- include('partials/header.ejs') %>
+
+<body>
+
+ <header>
+    <h1>Online Privacy</h1>
+    <h3>How Is Data Collected?</h3>
+  </header>
+
+  <%- include('partials/nav.ejs') %>
+  
+  <br />
+  <br />
+  <img src="images/data.jpg" alt="picture of data flying through the air">
+  <br />
+  <br />
+
+  <div>
+    <p>
+      How do they do it? There are many ways a website or browser is collecting your information. Sometimes you are
+      completely aware of the information you are providing. Most of the time it is being done behind the scenes.
+    </p>
+    <p>
+      Your IP address is a simple way to glean information about you online. Your IP address gives away information like
+      your rough geographical location and your Internet Service Provider. It can identify your computer, or your local network.  I have collected your IP Address already. 
+    </p>
+    <p id="ipDisplay">
+    Your IP Address is: <%= visitorsIP %>  and you are located in: <%= visitorsLocation %>
+    </p>
+      <p class = "small-text">This may be the location of your Internet Service Provider.</p>
+    <p>
+      While most people nowadays have heard of cookies, many do not know how they work. When you access a
+      website that
+      uses cookies, that website assigns your co</p>mputer and its user a unique ID. The small text file containing this ID
+      is called a "cookie," and is usually stored on your computer. The web server then collects information about your
+      activities as you navigate its website, and will likely store your physical location and identifying information
+      about your computer as well. The next time you visit that website, the cookie stored on your computer will help
+      the web server recognize you and your previous activities. Cookies can be used to keep you logged in to a
+      website, personalize the look of the page to your preferences, or track your activities.
+    </p>
+    <p>
+      Another way a website can collect your data is through the use of scripts. When you visit a website, it is common
+      to see the different elements on the page "pop" to life over the first few seconds. Large items, like complicated
+      graphics, embedded video, and rolling ads, take longer to load onto the page than plain text. In that time, many
+      websites are also executing invisible scripts that do things like deliver customized ads, gather information for
+      web analytics services, or track where you have been.
+      <!-- embed and credit image
+      https://clearcode.cc/blog/online-privacy-user-data/ -->
+    </p>
+    <p>
+      With the internet evolving at breakneck speed, businesses and bad guys alike are constantly developing new ways to
+      collect data and keep tabs on users online. To learn more and about other methods currently in use, take a
+      look <a href=https://www.howtogeek.com/115483/htg-explains-learn-how-websites-are-tracking-you-online>here</a>.
+    </p>
+  </div>
+
+  <br />
+  <br />
+
+
+<%- include('partials/footer.ejs') %>
+
+
+</body>
+
+
+</html>

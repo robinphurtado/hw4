@@ -1,0 +1,73 @@
+h1,
+h3 {
+  font-family: 'Special Elite', cursive;
+}
+
+#currentpage {
+  color: goldenrod;
+}
+
+nav a {
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 15px
+}
+
+nav a:hover {
+  border-bottom: 2px goldenrod;
+  font-size: 1.4em;
+  transition: .9s;
+}
+
+body {
+  min-height: 100vh;
+  /* not used in lab1 */
+  text-align: center;
+}
+
+div {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+footer {
+  font-family: sans-serif;
+  font-size: .6em;
+}
+
+p {
+  font-size: 1em;
+  box-sizing: border-box;
+  /*  not used in lab1 */
+  text-align: left;
+  text-indent: 50px;
+  font-family: sans-serif;
+}
+
+ul {
+  text-align: left;
+  font-family: sans-serif;
+}
+
+#ipDisplay {
+  color: red;
+  font-weight: bold;
+  
+}
+
+#scroll {
+  text-align: center;
+  position: relative;
+}
+
+#quote{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   font-family: 'Brush Script MT', cursive;
+}
+
+.small-text{
+  font-size: .6em;
+}
